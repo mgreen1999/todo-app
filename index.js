@@ -90,6 +90,7 @@ function updateCounts() {
   document.querySelector(".done-count").textContent = `${completedTasks.length} done`;
 }
 
+//renderAll opdatere listerne
 function renderAll() {
   const activeTasks = tasks.filter((task) => !task.done);
   const completedTasks = tasks.filter((task) => task.done);
